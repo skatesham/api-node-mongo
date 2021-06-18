@@ -1,0 +1,8 @@
+/node_modules
+npm-debug.log
+.DS_Store
+/*.envnpm-debug.log
+.env
+
+# New relic
+newrelic_agent.log

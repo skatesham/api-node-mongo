@@ -1,0 +1,31 @@
+{
+  "name": "api-node-mongo",
+  "version": "0.0.1",
+  "description": "API Node with Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100 app.js",
+    "swagger-autogen": "rm -rf ./docs/swagger-api-specification.json && node ./docs/swagger-autogen.js",
+    "swagger": "npm run swagger-autogen && npm run dev",
+    "prestart": "npm run swagger-autogen"
+  },
+  "keywords": [],
+  "author": "Sham Vinicius Fiorin",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "newrelic": "^7.5.0",
+    "node": "^16.3.0",
+    "swagger-autogen": "^2.9.3",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "16.x"
+  }
+}
