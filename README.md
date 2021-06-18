@@ -9,7 +9,7 @@ API with Node and Mongoose.
 
 ## 1. Deployment
 
-## Deploy to heroku with heroku ClI
+### Deploy to heroku with heroku ClI
 
 Installing Heroku CLI:
 ```bash
