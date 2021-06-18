@@ -1,6 +1,6 @@
 # API Node and MongoDB with connection using Mongoose
 API with Node and Mongoose.  
-- The default production git branch is `main`.
+- The default production git branch is `master`.
 - The web server is running with Node and Express.
 - The database configured is MongoDB and "driver" is Mongoose.
 - The authentication is JWT (Json Web Token).
@@ -20,7 +20,7 @@ Login on Heroku CLI, configure project and star deploy. You must change every ap
 ```bash
 heroku login
 heroku create bcg-node-mongo-api
-git push heroku main
+git push heroku master
 ```
 ##### Obs: If already created heroku dyno you can configure as `heroku git:remote -a bcg-node-mongo-api` 
 
