@@ -22,7 +22,7 @@
     "newrelic": "^7.5.0",
     "node": "^16.3.0",
     "swagger-autogen": "^2.9.3",
-    "swagger-ui-express": "^4.1.6"
+    "swagger-ui-express": "^4.6.0"
   },
   "devDependencies": {},
   "engines": {
